@@ -1,0 +1,17 @@
+dataset:
+  name: daniel3303/StoryReasoning
+  image_size: 224
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.0003
+  train_split: 0.8
+
+model:
+  num_classes: 5
+  conv_filters: [32,64,128]
+  kernel_size: 3
+  dropout: 0.3
+  attention_units: 128
+  batch_norm: false
