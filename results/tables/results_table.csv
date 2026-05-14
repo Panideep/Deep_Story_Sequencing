@@ -1,0 +1,6 @@
+Experiment,Modification,Train Loss,Validation Loss,Validation Accuracy
+Baseline,None,1.6098,1.6094,0.2041
+No Dropout,Remove Dropout,1.6098,1.6095,0.2021
+More Filters,Increase CNN filters,1.6096,1.6094,0.2044
+Attention 256,Increase attention units,1.6096,1.6096,0.2044
+BatchNorm,Add Batch Normalization,1.6044,1.6016,0.2328
